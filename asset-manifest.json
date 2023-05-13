@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/Cabin-Site/static/css/main.3d297d7d.css",
-    "main.js": "/Cabin-Site/static/js/main.50694569.js",
-    "static/js/787.e23b52a2.chunk.js": "/Cabin-Site/static/js/787.e23b52a2.chunk.js",
-    "static/media/cabinMain.jpg": "/Cabin-Site/static/media/cabinMain.490f4c560417353fea6f.jpg",
-    "index.html": "/Cabin-Site/index.html",
-    "main.3d297d7d.css.map": "/Cabin-Site/static/css/main.3d297d7d.css.map",
-    "main.50694569.js.map": "/Cabin-Site/static/js/main.50694569.js.map",
-    "787.e23b52a2.chunk.js.map": "/Cabin-Site/static/js/787.e23b52a2.chunk.js.map"
+    "main.css": "./static/css/main.82f6d32a.css",
+    "main.js": "./static/js/main.d77f9f8c.js",
+    "static/js/787.e23b52a2.chunk.js": "./static/js/787.e23b52a2.chunk.js",
+    "static/media/cabinMain.jpg": "./static/media/cabinMain.490f4c560417353fea6f.jpg",
+    "index.html": "./index.html",
+    "main.82f6d32a.css.map": "./static/css/main.82f6d32a.css.map",
+    "main.d77f9f8c.js.map": "./static/js/main.d77f9f8c.js.map",
+    "787.e23b52a2.chunk.js.map": "./static/js/787.e23b52a2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3d297d7d.css",
-    "static/js/main.50694569.js"
+    "static/css/main.82f6d32a.css",
+    "static/js/main.d77f9f8c.js"
   ]
 }
