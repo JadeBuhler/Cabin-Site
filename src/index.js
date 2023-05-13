@@ -9,6 +9,10 @@ import CalendarPage from './containers/CalendarPage';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
+App.get("/*", function (req, res) {
+  res.sendFile(path.resolve(__dirname, '../client/build', 'index.html'));
+})
+
 root.render(
     <BrowserRouter>
       <Routes>
