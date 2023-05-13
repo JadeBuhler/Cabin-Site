@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Cabin-Site/static/css/main.c92b33df.css",
-    "main.js": "/Cabin-Site/static/js/main.50694569.js",
-    "static/js/787.e23b52a2.chunk.js": "/Cabin-Site/static/js/787.e23b52a2.chunk.js",
-    "index.html": "/Cabin-Site/index.html",
-    "main.c92b33df.css.map": "/Cabin-Site/static/css/main.c92b33df.css.map",
-    "main.50694569.js.map": "/Cabin-Site/static/js/main.50694569.js.map",
-    "787.e23b52a2.chunk.js.map": "/Cabin-Site/static/js/787.e23b52a2.chunk.js.map"
+    "main.css": "/static/css/main.c92b33df.css",
+    "main.js": "/static/js/main.9b0cbf8f.js",
+    "static/js/787.e23b52a2.chunk.js": "/static/js/787.e23b52a2.chunk.js",
+    "index.html": "/index.html",
+    "main.c92b33df.css.map": "/static/css/main.c92b33df.css.map",
+    "main.9b0cbf8f.js.map": "/static/js/main.9b0cbf8f.js.map",
+    "787.e23b52a2.chunk.js.map": "/static/js/787.e23b52a2.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c92b33df.css",
-    "static/js/main.50694569.js"
+    "static/js/main.9b0cbf8f.js"
   ]
 }
