@@ -18,7 +18,7 @@ const HomePage = () => {
         return <Navigate replace to="/" />
     } else {
         return (
-            <div>
+            <div className="homeWrapper">
                 <Navbar/>
                 <p>Test</p>
             </div>

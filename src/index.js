@@ -8,6 +8,7 @@ import HomePage from './containers/HomePage';
 import CalendarPage from './containers/CalendarPage';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
+
 root.render(
     <BrowserRouter>
       <Routes>
