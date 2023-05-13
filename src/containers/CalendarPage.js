@@ -53,13 +53,14 @@ const CalendarPage = () => {
     return (
         <div style={{textAlign: "center"}}>
             <Navbar/>
-            <h1>Calendar</h1>
-            <h2>Add New Event</h2>
+            <h1>Cabin Schedule</h1>
+            <h2>Book off the days you would like to use the cabin. Be sure to add your name as the event title.</h2>
+            <h2>Long weekends are resereved for all family members.</h2>
             <div>
                 <input 
                 type="text" 
-                placeholder="add title" 
-                style={{width: "20%", marginRight: "10px"}}
+                placeholder="Add A Title" 
+                style={{width: "10%", marginRight: "10px"}}
                 value={newEvent.title} 
                 onChange={(e) => setNewEvent({...newEvent, title: e.target.value})}
                 />
@@ -70,7 +71,7 @@ const CalendarPage = () => {
                     onChange={(start) => setNewEvent({...newEvent, start})}
                 />
                 <DatePicker
-                    placeholderText="Endt Date"
+                    placeholderText="End Date"
                     selected={newEvent.end}
                     onChange={(end) => setNewEvent({...newEvent, end})}
                 />
@@ -85,7 +86,7 @@ const CalendarPage = () => {
             events={allEvents}
             startAccessor="start"
             endAccessor="end"
-            style={{height: 500, margin: "50px"}}
+            style={{height: 600, margin: "50px"}}
 
         />
       </div>

@@ -20,7 +20,8 @@ const HomePage = () => {
         return (
             <div className="homeWrapper">
                 <Navbar/>
-                <p>Test</p>
+                <h1>Welcome to the Huberdeau Cabin!</h1>
+                <p>This site is currenty under construction.</p>
             </div>
         )
     }
