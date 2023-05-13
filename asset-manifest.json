@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/%7BCabin-Site%7D/static/css/main.832be614.css",
+    "main.js": "/%7BCabin-Site%7D/static/js/main.7d887df1.js",
+    "static/js/787.e23b52a2.chunk.js": "/%7BCabin-Site%7D/static/js/787.e23b52a2.chunk.js",
+    "index.html": "/%7BCabin-Site%7D/index.html",
+    "main.832be614.css.map": "/%7BCabin-Site%7D/static/css/main.832be614.css.map",
+    "main.7d887df1.js.map": "/%7BCabin-Site%7D/static/js/main.7d887df1.js.map",
+    "787.e23b52a2.chunk.js.map": "/%7BCabin-Site%7D/static/js/787.e23b52a2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.832be614.css",
+    "static/js/main.7d887df1.js"
+  ]
+}
