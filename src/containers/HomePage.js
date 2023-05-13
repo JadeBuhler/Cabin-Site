@@ -15,7 +15,7 @@ const HomePage = () => {
 
     if(!authenticated){
         console.log('hi')
-        return <Navigate replace to="/index" />
+        return <Navigate replace to="/" />
     } else {
         return (
             <div>

@@ -9,15 +9,13 @@ import CalendarPage from './containers/CalendarPage';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
     <BrowserRouter>
       <Routes>
-        <Route index path="index" element={<App />} />
+        <Route index element={<App />} />
         <Route path="home" element={<HomePage />} />
         <Route path="calendar" element={<CalendarPage/>}/>
       </Routes>
     </BrowserRouter>
-  </React.StrictMode>
 );
 
 // If you want to start measuring performance in your app, pass a function

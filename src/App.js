@@ -20,10 +20,10 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <div>
+        <div id="enterSite">
             <form onSubmit={handleSubmit}>
-                <input type="password" placeholder="Enter Password" className="passField" onChange={(e) => setPassword(e.target.value)}/>
-                <button type="submit" className="siteLoginBtn">Sign In </button>
+                <input autoFocus type="password" placeholder="Enter Password" className="passField" onChange={(e) => setPassword(e.target.value)}/>
+                <button type="submit" className="siteLoginBtn">Enter</button>
             </form>
         </div>
       </header>
