@@ -11,10 +11,7 @@ const HomePage = () => {
         authenticated = true;
     }
 
-    console.log('authenticated: ', authenticated)
-
     if(!authenticated){
-        console.log('hi')
         return <Navigate replace to="/" />
     } else {
         return (
