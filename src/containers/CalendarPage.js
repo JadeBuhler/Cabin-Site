@@ -80,12 +80,11 @@ const CalendarPage = () => {
         return (
             <div style={{textAlign: "center"}}>
                 <Navbar/>
-                <h1>Calendar</h1>
-                <h2>Add New Event</h2>
+                <h1>Add New Event</h1>
                 <div>
                     <input 
                     type="text" 
-                    placeholder="add title" 
+                    placeholder="Add Title" 
                     style={{width: "20%", marginRight: "10px"}}
                     value={newEvent.title} 
                     onChange={(e) => setNewEvent({...newEvent, title: e.target.value})}
@@ -97,7 +96,7 @@ const CalendarPage = () => {
                         onChange={(start) => setNewEvent({...newEvent, start})}
                     />
                     <DatePicker
-                        placeholderText="Endt Date"
+                        placeholderText="End Date"
                         selected={newEvent.end}
                         onChange={(end) => setNewEvent({...newEvent, end})}
                     />
@@ -112,7 +111,7 @@ const CalendarPage = () => {
                 events={allEvents}
                 startAccessor="start"
                 endAccessor="end"
-                style={{height: 500, margin: "50px"}}
+                style={{height: 600, margin: "50px"}}
 
             />
         </div>
